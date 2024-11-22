@@ -8,4 +8,4 @@ dirigirse a la carpeta backend
 para correr frontend
 dirigirse a carpeta frontend
 npm start
-ruta http://localhost:8081
+ruta http://localhost:4200
