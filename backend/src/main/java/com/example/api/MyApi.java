@@ -16,9 +16,9 @@ public class MyApi {
     @GetMapping("/elementos")
     public List<Datos> getData() {
         List<Datos> elementos = new ArrayList<>();
-        elementos.add(new Datos(1, "Elemento 1", "Descripción del elemento 1"));
-        elementos.add(new Datos(2, "Elemento 2", "Descripción del elemento 2"));
-        elementos.add(new Datos(3, "Elemento 3", "Descripción del elemento 3"));
+        elementos.add(new Datos(1, "Michelle", "Edad: 22"));
+        elementos.add(new Datos(2, "Oscar", "Edad: 31"));
+        elementos.add(new Datos(3, "Elisa", "Edad: 21"));
         
         return elementos;
     }
